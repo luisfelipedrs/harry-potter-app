@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F5714F4B29539500004EC68C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5714F4A29539500004EC68C /* AppDelegate.swift */; };
+		F5714F4D29539500004EC68C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5714F4C29539500004EC68C /* SceneDelegate.swift */; };
+		F5714F4F29539500004EC68C /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5714F4E29539500004EC68C /* MainTabBarViewController.swift */; };
+		F5714F5429539501004EC68C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F5714F5329539501004EC68C /* Assets.xcassets */; };
+		F5714F5729539501004EC68C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5714F5529539501004EC68C /* LaunchScreen.storyboard */; };
+		F5714F602953987B004EC68C /* CharactersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5714F5F2953987B004EC68C /* CharactersViewController.swift */; };
+		F5714F622953993B004EC68C /* HousesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5714F612953993B004EC68C /* HousesViewController.swift */; };
+		F5714F6429539945004EC68C /* SpellsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5714F6329539945004EC68C /* SpellsViewController.swift */; };
+		F5714F6A29539D61004EC68C /* CharactersViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5714F6929539D61004EC68C /* CharactersViewCell.swift */; };
+		F5714F6D2953ACDC004EC68C /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5714F6C2953ACDC004EC68C /* APIService.swift */; };
+		F5714F702953AD62004EC68C /* Characters.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5714F6F2953AD62004EC68C /* Characters.swift */; };
+		F5714F722953AE7E004EC68C /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5714F712953AE7E004EC68C /* Endpoint.swift */; };
+		F5DF77942954A02700F87EAC /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = F5DF77932954A02700F87EAC /* Kingfisher */; };
+		F5DF77972954A0AC00F87EAC /* CharactersViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5DF77962954A0AC00F87EAC /* CharactersViewModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F5714F4729539500004EC68C /* HarryPotterApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HarryPotterApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5714F4A29539500004EC68C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F5714F4C29539500004EC68C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F5714F4E29539500004EC68C /* MainTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTabBarViewController.swift; sourceTree = "<group>"; };
+		F5714F5329539501004EC68C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F5714F5629539501004EC68C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F5714F5829539501004EC68C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5714F5F2953987B004EC68C /* CharactersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharactersViewController.swift; sourceTree = "<group>"; };
+		F5714F612953993B004EC68C /* HousesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HousesViewController.swift; sourceTree = "<group>"; };
+		F5714F6329539945004EC68C /* SpellsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpellsViewController.swift; sourceTree = "<group>"; };
+		F5714F6929539D61004EC68C /* CharactersViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharactersViewCell.swift; sourceTree = "<group>"; };
+		F5714F6C2953ACDC004EC68C /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		F5714F6F2953AD62004EC68C /* Characters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Characters.swift; sourceTree = "<group>"; };
+		F5714F712953AE7E004EC68C /* Endpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
+		F5DF77962954A0AC00F87EAC /* CharactersViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharactersViewModel.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F5714F4429539500004EC68C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5DF77942954A02700F87EAC /* Kingfisher in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F5714F3E29539500004EC68C = {
+			isa = PBXGroup;
+			children = (
+				F5714F4929539500004EC68C /* HarryPotterApp */,
+				F5714F6629539B69004EC68C /* Scenes */,
+				F5714F4829539500004EC68C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F5714F4829539500004EC68C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F5714F4729539500004EC68C /* HarryPotterApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F5714F4929539500004EC68C /* HarryPotterApp */ = {
+			isa = PBXGroup;
+			children = (
+				F5714F6529539B37004EC68C /* SupportiveFiles */,
+				F5714F5329539501004EC68C /* Assets.xcassets */,
+				F5714F6B2953ACCC004EC68C /* Network */,
+				F5714F6E2953AD54004EC68C /* Models */,
+				F5714F5E2953985D004EC68C /* Controllers */,
+			);
+			path = HarryPotterApp;
+			sourceTree = "<group>";
+		};
+		F5714F5E2953985D004EC68C /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F5714F4E29539500004EC68C /* MainTabBarViewController.swift */,
+				F5714F612953993B004EC68C /* HousesViewController.swift */,
+				F5714F6329539945004EC68C /* SpellsViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		F5714F6529539B37004EC68C /* SupportiveFiles */ = {
+			isa = PBXGroup;
+			children = (
+				F5714F4A29539500004EC68C /* AppDelegate.swift */,
+				F5714F4C29539500004EC68C /* SceneDelegate.swift */,
+				F5714F5529539501004EC68C /* LaunchScreen.storyboard */,
+				F5714F5829539501004EC68C /* Info.plist */,
+			);
+			name = SupportiveFiles;
+			sourceTree = "<group>";
+		};
+		F5714F6629539B69004EC68C /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				F5714F6729539B73004EC68C /* CharactersScene */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		F5714F6729539B73004EC68C /* CharactersScene */ = {
+			isa = PBXGroup;
+			children = (
+				F5DF77952954A09D00F87EAC /* ViewModel */,
+				F5714F5F2953987B004EC68C /* CharactersViewController.swift */,
+				F5714F6829539D46004EC68C /* View */,
+			);
+			path = CharactersScene;
+			sourceTree = "<group>";
+		};
+		F5714F6829539D46004EC68C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				F5714F6929539D61004EC68C /* CharactersViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		F5714F6B2953ACCC004EC68C /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				F5714F6C2953ACDC004EC68C /* APIService.swift */,
+				F5714F712953AE7E004EC68C /* Endpoint.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		F5714F6E2953AD54004EC68C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F5714F6F2953AD62004EC68C /* Characters.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F5DF77952954A09D00F87EAC /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				F5DF77962954A0AC00F87EAC /* CharactersViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F5714F4629539500004EC68C /* HarryPotterApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5714F5B29539501004EC68C /* Build configuration list for PBXNativeTarget "HarryPotterApp" */;
+			buildPhases = (
+				F5714F4329539500004EC68C /* Sources */,
+				F5714F4429539500004EC68C /* Frameworks */,
+				F5714F4529539500004EC68C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HarryPotterApp;
+			packageProductDependencies = (
+				F5DF77932954A02700F87EAC /* Kingfisher */,
+			);
+			productName = HarryPotterApp;
+			productReference = F5714F4729539500004EC68C /* HarryPotterApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F5714F3F29539500004EC68C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					F5714F4629539500004EC68C = {
+						CreatedOnToolsVersion = 14.0;
+					};
+				};
+			};
+			buildConfigurationList = F5714F4229539500004EC68C /* Build configuration list for PBXProject "HarryPotterApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F5714F3E29539500004EC68C;
+			packageReferences = (
+				F5DF77922954A02700F87EAC /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
+			productRefGroup = F5714F4829539500004EC68C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F5714F4629539500004EC68C /* HarryPotterApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F5714F4529539500004EC68C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5714F5729539501004EC68C /* LaunchScreen.storyboard in Resources */,
+				F5714F5429539501004EC68C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F5714F4329539500004EC68C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5DF77972954A0AC00F87EAC /* CharactersViewModel.swift in Sources */,
+				F5714F6A29539D61004EC68C /* CharactersViewCell.swift in Sources */,
+				F5714F622953993B004EC68C /* HousesViewController.swift in Sources */,
+				F5714F6429539945004EC68C /* SpellsViewController.swift in Sources */,
+				F5714F602953987B004EC68C /* CharactersViewController.swift in Sources */,
+				F5714F722953AE7E004EC68C /* Endpoint.swift in Sources */,
+				F5714F702953AD62004EC68C /* Characters.swift in Sources */,
+				F5714F4F29539500004EC68C /* MainTabBarViewController.swift in Sources */,
+				F5714F4B29539500004EC68C /* AppDelegate.swift in Sources */,
+				F5714F6D2953ACDC004EC68C /* APIService.swift in Sources */,
+				F5714F4D29539500004EC68C /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F5714F5529539501004EC68C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F5714F5629539501004EC68C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F5714F5929539501004EC68C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F5714F5A29539501004EC68C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F5714F5C29539501004EC68C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B2MZ9787NZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HarryPotterApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.zup.HarryPotterApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F5714F5D29539501004EC68C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = B2MZ9787NZ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = HarryPotterApp/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = br.com.zup.HarryPotterApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F5714F4229539500004EC68C /* Build configuration list for PBXProject "HarryPotterApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5714F5929539501004EC68C /* Debug */,
+				F5714F5A29539501004EC68C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5714F5B29539501004EC68C /* Build configuration list for PBXNativeTarget "HarryPotterApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5714F5C29539501004EC68C /* Debug */,
+				F5714F5D29539501004EC68C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F5DF77922954A02700F87EAC /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F5DF77932954A02700F87EAC /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F5DF77922954A02700F87EAC /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = F5714F3F29539500004EC68C /* Project object */;
+}
